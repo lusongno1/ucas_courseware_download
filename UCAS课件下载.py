@@ -77,7 +77,7 @@ def get_courseInfo(session,courseSite):
  #   del Course_info[1:-1]
     length = len(Course_info)
 #    print(Course_info.attrs)
-    for i in range(0,length-1):
+    for i in range(0,length):
 ##        print(s)
         info = Course_info[i]
         tag = info.div.a
